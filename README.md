@@ -23,14 +23,16 @@ The website includes multiple pages connected through a shared navigation system
 ## Project Structure
 
 ```bash
-HP-GYM-Wensite/
+HP-Gym-Website/
 │
 ├── index.html        # Homepage
-├── about.html        # About the gym
-├── plans.html        # Membership plans
-├── schedule.html     # Gym schedule and timings
-├── contact.html      # Contact information
-└── style.css         # Global styling
+├── about.html        # About page
+├── plans.html        # Membership plans page
+├── schedule.html     # Gym schedule page
+├── contact.html      # Contact page
+├── style.css         # Styling for the website
+├── README.md
+├── LICENSE
 ```
 
 ## Technologies Used

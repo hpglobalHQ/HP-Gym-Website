@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact HP Gym in Jind for memberships, personal training, and class enquiries.">
+  <title>Contact HP Gym</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Shared navbar -->
+  <header class="site-header">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a class="logo" href="index.html">HP GYM</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="plans.html">Plans</a>
+        <a href="schedule.html">Schedule</a>
+        <a class="active" href="contact.html">Contact</a>
+      </div>
+      <a class="btn nav-cta" href="contact.html">Join Now</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Page hero section -->
+    <section class="page-hero contact-hero">
+      <div class="page-hero-content">
+        <span class="eyebrow">Visit us</span>
+        <h1>Get In Touch</h1>
+        <p>Ask about memberships, personal training, or the best time to start.</p>
+      </div>
+    </section>
+
+    <!-- Contact information and form section -->
+    <section class="section section-white">
+      <div class="container contact-grid">
+        <div>
+          <span class="eyebrow">Contact info</span>
+          <h2>Let's Talk</h2>
+          <p>Drop by for a tour or send an enquiry and our team will call you back.</p>
+          <ul class="contact-list">
+            <li>📍 Near Bus Stand, Sector 12, Jind, Haryana — 126102</li>
+            <li>📞 +91 98765 43210</li>
+            <li>📧 hpglobalemail@gmail.com</li>
+            <li>⏰ Mon–Fri: 5AM–10PM</li>
+          </ul>
+          <img class="contact-photo" src="https://images.unsplash.com/photo-1570829460005-c840387bb1ca?w=600" alt="Gym equipment and training area">
+        </div>
+
+        <form class="form-card" action="#" method="POST">
+          <h2>Send Enquiry</h2>
+          <div class="form-grid">
+            <div class="form-row">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-row">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" pattern="[0-9+\-\s]{8,15}" required>
+            </div>
+            <div class="form-row">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email">
+            </div>
+            <div class="form-row">
+              <label for="age">Age</label>
+              <input type="number" id="age" name="age" min="15" max="70">
+            </div>
+            <fieldset class="form-row">
+              <legend>Gender</legend>
+              <div class="radio-group">
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+                <label><input type="radio" name="gender" value="other"> Other</label>
+              </div>
+            </fieldset>
+            <div class="form-row">
+              <label for="interest">Interested In</label>
+              <select id="interest" name="interest">
+                <option>Basic Plan</option>
+                <option>Pro Plan</option>
+                <option>Elite Plan</option>
+                <option>Personal Training</option>
+                <option>General Query</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="timing">Preferred Timing</label>
+              <select id="timing" name="timing">
+                <option>Morning (5–9 AM)</option>
+                <option>Afternoon (12–3 PM)</option>
+                <option>Evening (5–10 PM)</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4"></textarea>
+            </div>
+            <div class="checkbox-row">
+              <label><input type="checkbox" name="consent" required> I agree to be contacted by HP Gym</label>
+            </div>
+            <button class="btn" type="submit">Send Enquiry</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Map placeholder section -->
+    <section class="section">
+      <div class="container">
+        <div class="map-placeholder">📍 HP Gym — Near Bus Stand, Jind, Haryana</div>
+      </div>
+    </section>
+
+    <!-- Social section -->
+    <section class="section section-white">
+      <div class="container section-intro">
+        <span class="eyebrow">Stay motivated</span>
+        <h2>Follow us for daily fitness motivation</h2>
+        <div class="social-links">
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">YouTube</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Shared footer -->
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <h3 class="logo">HP GYM</h3>
+        <p>Strength training, conditioning, and community built for real results in Jind.</p>
+        <div class="footer-social"><a href="#" aria-label="Facebook">ⓕ</a><a href="#" aria-label="Instagram">ⓘ</a><a href="#" aria-label="YouTube">▶</a></div>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="plans.html">Plans</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact Info</h3>
+        <ul class="footer-contact">
+          <li>📍 Near Bus Stand, Sector 12, Jind, Haryana — 126102</li>
+          <li>📞 +91 9876543210</li>
+          <li>📧 hpglobalemail.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 HP Gym. All rights reserved.</div>
+  </footer>
+</body>
+</html>

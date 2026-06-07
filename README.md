@@ -70,8 +70,7 @@ Some ideas for future updates:
 
 ## Author
 
-Himanshu Pandey
-Note: Created as a front-end gym website project for learning and practice purposes.
+Created as a front-end gym website project for learning and practice purposes.
 
 ---
 
